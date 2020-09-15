@@ -38,3 +38,25 @@ background-color: lightcoral;
 padding: 10px;
 
 }
+
+img {
+width: 400px%;
+height: 300px;
+border-radius: 10px;
+
+}
+
+a{
+background: chocolate;
+color: darkcyan;
+padding: 20px;
+text-decoration: none;
+font-weight: 400;
+
+}
+
+a:hover{
+
+    background-color: darkgray;
+    color: darkgreen;
+}
