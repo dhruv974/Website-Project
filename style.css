@@ -60,3 +60,10 @@ a:hover{
     background-color: darkgray;
     color: darkgreen;
 }
+
+table{
+    background-color: darkorange;
+    color: white;
+    padding: 5px;
+    width: 500px;
+}
