@@ -67,3 +67,12 @@ table{
     padding: 5px;
     width: 500px;
 }
+
+/* Classes ---change particular tag using the class --- dot notation */ 
+
+.TopNav{
+background-color: white;
+width: auto;
+padding: 10px;
+
+}
