@@ -101,3 +101,33 @@ input[type=password] {
 
 
 }
+
+input[type=submit] {
+background-color: tomato;
+color: teal;
+width: fit-content;
+padding: 10px 22px;
+border: 5px blue
+}
+
+input[type=reset] {
+
+    background-color:tomato;
+    color:teal;
+    width: fit-content;
+    padding: 10px 22px;
+    border: 5px blue;
+}
+
+input[type=submit]:hover{
+    background-color: brown;
+    color: burlywood;
+    border-radius: 10px;
+}
+
+input[type=reset]:hover{
+    background-color: brown;
+    color: burlywood;
+    border-radius: 10px;
+}
+
