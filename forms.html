@@ -10,7 +10,8 @@
     <div class="TopNav">
         <a href="#">Home</a> 
         <a href="products.html"> Products </a>
-         <a href="tables.html"> Tables </a><br> 
+         <a href="tables.html"> Tables </a> 
+         <a href="#">Forms</a><br>
         
         </div>
 
@@ -18,9 +19,45 @@
 
     <form action="results.html" method="POST">
 
-FirstName: <input type="text" size="50" value="Type your first name here" name="fname" />
-LastName: <input type="text" size="50" value="Type your last name here" name="lname" />
-Password: <input type="password" size="30" name="pword" />
+FirstName: <input type="text" size="50" name="fname" required />
+LastName: <input type="text" size="50" name="lname" required/>
+Password: <input type="password" size="30" name="pword" required/>
+
+<input type="checkbox" value="Swimming" name="Hobbies"> Swimming
+<input type="checkbox" value="Football" name="Hobbies"> Football
+<input type="checkbox" value="Music" name="Hobbies"> Music
+
+
+<h4> How old are you? </h4>
+<input type="radio" value="under" name="age"> 15-18
+<input type="radio" value="over" name="age"> 19-22
+<input type="radio" value="youth" name="age"> 23-26
+
+<h5> Select your county</h5>
+
+<select>
+<option> Nairobi </option>
+<option> Mombasa </option>
+<option> Kisumu </option>
+<option> Nakuru </option>
+
+</select>
+
+<h6> Type your comment here </h6>
+<textarea rows="10" cols="50"> 
+
+
+    Your opinion matters. 
+</textarea>
+
+<p></p>
+
+<input type="submit" value="Click Me" name="Submit" />
+<input type="reset" value="Cancel" name="Reset" />
+
+
+
+
     </form>
 </body>
 
