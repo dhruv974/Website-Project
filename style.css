@@ -73,9 +73,25 @@ table{
 .TopNav{
 background-color: white;
 width: auto;
-padding: 10px;
+overflow: hidden;
 
 }
+
+.TopNav a {
+    float: left;
+    display: block;
+    color: tomato;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    }
+
+    .TopNav .icon { 
+
+display: none;
+    }
 
 input[type=text] {
 
@@ -131,3 +147,17 @@ input[type=reset]:hover{
     border-radius: 10px;
 }
 
+@media screen and (max-width: 600px) {
+
+    .TopNav.responsive {position: relative;}
+    .TopNav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+.TopNav.responsive a{
+        float: right;
+        display: block;
+        text-align:left;
+    }
+}
